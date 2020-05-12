@@ -1,0 +1,111 @@
+html, body, .full-height {
+    height: 100%;
+    background: no-repeat center fixed;
+    margin:0;
+}
+
+body {
+    background-color: #fbfbfb;
+    display: block;
+    color:#444040;
+    font-family: Helvetica, sans-serif;
+    line-height:1.6em;
+    font-size: 0.9em;
+}
+
+.container-left {
+    max-width: 450px;
+    position: relative;
+    margin:0 0 10px;
+    left: 50%;
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+
+.container-right {
+    max-width: 85%;
+    position: relative;
+    text-align: left;
+    left: 50%;
+    transform: translate(-50%);
+    -ms-transform: translateX(-50%);
+    margin: 120px 0 10px;
+}
+
+.bg-image {
+    background: url("../images/background.jpg") no-repeat center fixed;
+    background-size: cover;
+}
+
+.box-content {
+    background: #fbfbfb;
+    height: 100%;
+}
+
+h1 {
+    font-family: Helvetica, serif;
+    text-align:center;
+    font-size:140%;
+    margin: 2.7em 2.5em 2.5em 2.5em;
+}
+
+h2 {
+    font-family: Helvetica, serif;
+    text-align:center;
+    font-size:140%;
+    margin: 3em 2.5em 2.5em 2.5em;
+}
+
+a, a:link, a:visited {
+    color:#e1e1e1;
+    text-decoration: underline;
+}
+
+.btn, .btn:link, .btn:visited {
+    background-color: #444040;
+    color: #fbfbfb;
+    display: block;
+    padding: 0.5em 1em;
+    margin: 10px 0;
+    border: 2px #444040 solid;
+    border-radius: 0;
+    text-decoration: none;
+    text-align: center;
+}
+
+.btn:hover {
+    background-color:#fbfbfb;
+    color: #444040;
+    display: block;
+    padding: 0.5em 1em;
+    margin: 10px 0;
+    border: 2px #444040 solid;
+    border-radius: 0;
+    text-decoration: none;
+    text-align: center;
+}
+
+.prolog {
+    margin:15px 0 10px 0;
+    text-align: center;
+}
+
+.daftar {
+    padding: 15px 0;
+}
+
+.epilog {
+    margin:30px 0 10px;
+    text-align: center;
+    color: #e1e1e1;
+}
+
+.sign {
+    margin:15px 0;
+    padding: 0 0 2em;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.1em;
+    font-style: italic;
+    text-align: center;
+    color: #e1e1e1;
+}
